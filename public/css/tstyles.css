@@ -951,6 +951,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
+.font-body {
+  font-family: IRANSans, iranyekan;
+}
+
 .font-light {
   font-weight: 300;
 }

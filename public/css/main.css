@@ -1,0 +1,9 @@
+::-webkit-scrollbar {
+    width: 17px;
+    height: 17px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    opacity: 0;
+}
+

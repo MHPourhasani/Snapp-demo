@@ -20,8 +20,10 @@
         <title>Snapp Demo</title>
     </head>
 
-    <body>
-        <header class="font-body w-full bg-white fixed top-0 font-light z-30">
+    <body class="w-full font-body overflow-x-hidden">
+        <header
+            class="font-body w-full bg-white fixed top-0 font-light z-30"
+        >
             <!-- navbar for md,lg,xl,etc size  -->
             <div
                 class="hidden md:flex md:w-full md:bg-white md:border-b-1 md:top-0 md:items-center md:h-24 md:pr-12 lg:pr-16"
@@ -98,5 +100,90 @@
                 </ul>
             </section>
         </header>
+
+        <main class="w-full bg-gray-100 md:mt-24">
+            <!-- description and driver image -->
+            <section
+                class="w-full flex flex-col-reverse md:flex-row md:max-h-2xl"
+            >
+                <!-- description section -->
+                <div
+                    class="bg-green-snapp flex flex-col basis-1/2 px-10 sm:basis-2/3 sm:-translate-y-24 md:basis-1/2 md:-translate-y-0 md:pr-20 xl:pr-28 lg:pr-32"
+                >
+                    <section class="my-1 md:my-5">
+                        <h1
+                            class="text-white font-bold text-3xl leading-loose tracking-tightest text-justify my-4 md:my-8 md:pl-20 lg:text-4xl"
+                        >
+                            تجربه زندگی راحت تر، سریع تر و به صرفه تر
+                            با سوپر اپلیکیشن اسنپ!
+                        </h1>
+                        <span
+                            class="text-white font-light text-lg lg:text-xl lg:pl-12"
+                        >
+                            از درخواست خودرو گرفته تا سفارش غذا، خرید
+                            سوپر مارکتی، خرید بلیت سفر، مشاوره پزشکی و
+                            روانشناسی، رزرو هتل و ... را می توانید با
+                            سوپر اپلیکیشن اسنپ انجام دهید.</span
+                        >
+                    </section>
+
+                    <section class="hidden md:block md:mt-5 md:mb-10">
+                        <div class="flex items-center">
+                            <input
+                                type="tel"
+                                name=""
+                                id=""
+                                placeholder="09xxxxx1061"
+                                class="w-52 bg-transparent text-white border-b-1 border-white placeholder-gray-200 text-base font-thin focus:outline-none md:w-5/12"
+                            />
+                            <input
+                                type="submit"
+                                value="ارسال لینک"
+                                class="bg-white text-green-snappBtn rounded-md text-sm font-semibold md:py-2 md:px-8 xl:mx-5"
+                            />
+                        </div>
+                    </section>
+
+                    <section class="flex flex-col md:hidden">
+                        <button
+                            class="w-11/12 bg-white text-gray-800 rounded-md py-3 my-5 mx-auto"
+                        >
+                            <span>دانلود اپلیکیشن اسنپ</span>
+                        </button>
+                    </section>
+
+                    <section class="w-1/4">
+                        <input
+                            type="submit"
+                            value="ورود به وب اپلیکیشن اسنپ"
+                            class="hidden md:block md:bg-transparent md:text-white border-1 md:border-white md:rounded-lg md:py-2.5 md:px-9 md:mb-8"
+                        />
+                    </section>
+                </div>
+
+                <!-- driver image section -->
+                <div class="basis-1/2 sm:basis-1/3 md:basis-1/2">
+                    <img
+                        src="../src/images/header-img-e.jpg"
+                        id="header-img-e"
+                        class="w-full h-full sm:hidden md:block md:w-full md:h-full xl:hidden"
+                        alt="header-img-e"
+                    />
+                    <img
+                        src="../src/images/header-img.jpg"
+                        id="header-img"
+                        class="hidden sm:block sm:-translate-y-24 md:hidden sm:w-full xl:block md:-translate-y-0 xl:w-full"
+                        alt="header-img"
+                    />
+
+                    <!-- <picture>
+                        <source media="(min-width:320px)" srcset="../src/images/header-img-e.jpg">
+                        <source media="(min-width:768px)" srcset="../src/images/header-img.jpg">
+                        <source media="(min-width:1024px)" srcset="../src/images/Food-xl.jpg">
+                        <img src="../src/images/header-img.jpg" alt="header" style="width:auto;">
+                      </picture> -->
+                </div>
+            </section>
+        </main>
     </body>
 </html>

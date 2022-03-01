@@ -19,5 +19,84 @@
         <link href="./css/main.css" rel="stylesheet" />
         <title>Snapp Demo</title>
     </head>
-    <body></body>
+
+    <body>
+        <header class="font-body w-full bg-white fixed top-0 font-light z-30">
+            <!-- navbar for md,lg,xl,etc size  -->
+            <div
+                class="hidden md:flex md:w-full md:bg-white md:border-b-1 md:top-0 md:items-center md:h-24 md:pr-12 lg:pr-16"
+            >
+                <span
+                    ><img
+                        src="../src/images/Snapp_logo.png"
+                        class="w-full sm:h-7"
+                        alt="Snapp_logo"
+                /></span>
+
+                <ul
+                    class="md:flex md:items-center md:font-thin md:text-sm lg:text-base md:tracking-tighter"
+                >
+                    <a href="#"
+                        ><li class="mx-3 mr-7">فرصت های شغلی</li></a
+                    >
+                    <a href="#"><li class="mx-3">بلاگ</li></a>
+                    <a href="#"
+                        ><li class="mx-3">باشگاه رانندگان</li></a
+                    >
+                    <a href="#"
+                        ><li class="mx-3">
+                            پیوستن به ناوگان اسنپ
+                        </li></a
+                    >
+                    <a href="#"><li class="mx-3">پنل سازمانی</li></a>
+                    <a href="#"><li class="mx-3">درباره ما</li></a>
+                    <a href="#"><li class="mx-3">تماس با ما</li></a>
+                </ul>
+            </div>
+
+            <!-- navbar for xs and sm size  -->
+            <section class="w-full md:hidden">
+                <div
+                    class="flex justify-between items-center border-b-1 px-9 py-4 w-screen"
+                >
+                    <i
+                        id="humbergerMenu"
+                        class="fas fa-bars w-10 self-center py-1"
+                    ></i>
+                    <span
+                        ><img
+                            src="../src/images/Snapp_logo.png"
+                            class="w-20 h-7"
+                            alt="Snapp_logo"
+                    /></span>
+                </div>
+
+                <ul
+                    class="humbergerMenuUl md:font-thin md:text-base md:tracking-tighter"
+                >
+                    <a href="#"
+                        ><li class="mx-3 my-1">فرصت های شغلی</li></a
+                    >
+                    <a href="#"><li class="mx-3 my-1">بلاگ</li></a>
+                    <a href="#"
+                        ><li class="mx-3 my-1">باشگاه رانندگان</li></a
+                    >
+                    <a href="#"
+                        ><li class="mx-3 my-1">
+                            پیوستن به ناوگان اسنپ
+                        </li></a
+                    >
+                    <a href="#"
+                        ><li class="mx-3 my-1">پنل سازمانی</li></a
+                    >
+                    <a href="#"
+                        ><li class="mx-3 my-1">درباره ما</li></a
+                    >
+                    <a href="#"
+                        ><li class="mx-3 my-1">تماس با ما</li></a
+                    >
+                </ul>
+            </section>
+        </header>
+    </body>
 </html>

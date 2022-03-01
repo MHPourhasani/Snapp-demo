@@ -7,3 +7,11 @@
     opacity: 0;
 }
 
+.humbergerMenuUl{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    display: none;
+}

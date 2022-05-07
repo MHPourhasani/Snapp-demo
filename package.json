@@ -4,7 +4,7 @@
   "description": "",
   "main": "postcss.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "set=TAILWIND_MODE=WATCH&postcss tailwind.css -o ./public/css/tstyles.css --watch --verbose"
   },
   "author": "",
   "license": "ISC"

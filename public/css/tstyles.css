@@ -698,7 +698,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 	src: url('/public/src/fonts/IranYekan/WebFonts/fonts/eot/iranyekanwebblackfanum.eot?#iefix')
 			format('embedded-opentype'),
 		/* IE6-8 */
-			url('/src/public/fonts/IranYekan/WebFonts/fonts/woff/iranyekanwebblackfanum.woff')
+			url('/public/src/public/fonts/IranYekan/WebFonts/fonts/woff/iranyekanwebblackfanum.woff')
 			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 			url('/public/src/fonts/IranYekan/WebFonts/fonts/ttf/iranyekanwebblackfanum.ttf')

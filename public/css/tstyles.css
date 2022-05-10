@@ -990,12 +990,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100%;
 }
 
-.h-28 {
-  height: 7rem;
+.h-32 {
+  height: 8rem;
 }
 
 .h-12 {
   height: 3rem;
+}
+
+.h-28 {
+  height: 7rem;
 }
 
 .h-2 {
@@ -1080,6 +1084,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -1303,6 +1311,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .leading-loose {
   line-height: 2;
 }
@@ -1413,6 +1425,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:-translate-y-24 {
     --tw-translate-y: -6rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+
+  .sm\:font-semibold {
+    font-weight: 600;
   }
 }
 

@@ -7,5 +7,8 @@
     "dev": "set=TAILWIND_MODE=WATCH&postcss tailwind.css -o ./public/css/tstyles.css --watch --verbose"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2"
+  }
 }

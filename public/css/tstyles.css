@@ -604,12 +604,15 @@ video {
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Black.eot');
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Black.eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Black.woff2')
+		/* IE6-8 */
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Black.woff2')
 			format('woff2'),
 		/* FF39+,Chrome36+, Opera24+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Black.woff') format('woff'),
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Black.woff')
+			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Black.ttf') format('truetype');
+			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Black.ttf')
+			format('truetype');
 }
 
 @font-face {
@@ -619,12 +622,15 @@ video {
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Bold.eot');
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Bold.woff2')
+		/* IE6-8 */
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Bold.woff2')
 			format('woff2'),
 		/* FF39+,Chrome36+, Opera24+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Bold.woff')
+			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Bold.ttf')
+			format('truetype');
 }
 
 @font-face {
@@ -634,12 +640,15 @@ video {
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Medium.eot');
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Medium.woff2')
+		/* IE6-8 */
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Medium.woff2')
 			format('woff2'),
 		/* FF39+,Chrome36+, Opera24+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Medium.woff')
+			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Medium.ttf')
+			format('truetype');
 }
 
 @font-face {
@@ -649,12 +658,15 @@ video {
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Light.eot');
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_Light.eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Light.woff2')
+		/* IE6-8 */
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_Light.woff2')
 			format('woff2'),
 		/* FF39+,Chrome36+, Opera24+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'),
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_Light.woff')
+			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_Light.ttf')
+			format('truetype');
 }
 
 @font-face {
@@ -664,10 +676,12 @@ video {
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_UltraLight.eot');
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_UltraLight.woff2')
+		/* IE6-8 */
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum)_UltraLight.woff2')
 			format('woff2'),
 		/* FF39+,Chrome36+, Opera24+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum)_UltraLight.woff')
+			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
 			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum)_UltraLight.ttf')
 			format('truetype');
@@ -680,11 +694,14 @@ video {
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum).eot');
 	src: url('/public/src/fonts/IranSans/Farsi_numerals/eot/IRANSansWeb(FaNum).eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum).woff2') format('woff2'),
+		/* IE6-8 */ url('/public/src/fonts/IranSans/Farsi_numerals/woff2/IRANSansWeb(FaNum).woff2')
+			format('woff2'),
 		/* FF39+,Chrome36+, Opera24+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum).woff') format('woff'),
+			url('/public/src/fonts/IranSans/Farsi_numerals/woff/IRANSansWeb(FaNum).woff')
+			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+			url('/public/src/fonts/IranSans/Farsi_numerals/ttf/IRANSansWeb(FaNum).ttf')
+			format('truetype');
 }
 
 @font-face {
@@ -903,10 +920,12 @@ video {
 	src: url('/public/src/fonts/IranYekan/Farsi_numerals/eot/iranyekanwebblackfanum.eot');
 	src: url('/public/src/fonts/IranYekan/Farsi_numerals/eot/iranyekanwebblackfanum.eot?#iefix')
 			format('embedded-opentype'),
-		/* IE6-8 */ url('/public/src/fonts/IranYekan/Farsi_numerals/woff/iranyekanwebblackfanum.woff')
+		/* IE6-8 */
+			url('/public/src/fonts/IranYekan/Farsi_numerals/woff/iranyekanwebblackfanum.woff')
 			format('woff'),
 		/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-			url('/public/src/fonts/IranYekan/Farsi_numerals/ttf/iranyekanwebblackfanum.ttf') format('truetype');
+			url('/public/src/fonts/IranYekan/Farsi_numerals/ttf/iranyekanwebblackfanum.ttf')
+			format('truetype');
 }
 
 @font-face {
